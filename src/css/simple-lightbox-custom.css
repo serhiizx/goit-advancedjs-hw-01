@@ -1,0 +1,11 @@
+.sl-wrapper {
+  .sl-prev,
+  .sl-next,
+  .sl-counter,
+  .sl-close {
+    color: white !important;
+  }
+}
+.sl-overlay {
+  background-color: #2e2f42 !important;
+}
