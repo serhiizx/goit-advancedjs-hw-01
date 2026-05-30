@@ -49,7 +49,6 @@ function processHrefImages(srcRoot) {
 
 export default defineConfig(({ command }) => {
   return {
-    base: command === 'serve' ? '/goit-advancedjs-hw-01/' : './',
     define: {
       [command === 'serve' ? 'global' : '_global']: {},
     },
