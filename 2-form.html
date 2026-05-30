@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/goit-advancedjs-hw-01/2-form.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-01/assets/styles-DmnAI2Rp.js">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-01/assets/styles-CMLt8Vgr.css">
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <form class="feedback-form" autocomplete="off">
+          <label class="form-item">
+            Email
+            <input type="email" name="email" autofocus />
+          </label>
+          <label class="form-item">
+            Message
+            <textarea name="message" rows="8"></textarea>
+          </label>
+          <div class="form-actions">
+            <button type="submit">Submit</button>
+            <div class="form-message"></div>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
